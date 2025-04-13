@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieFlix</title>
+    <link rel="stylesheet" href="movie.css">
+</head>
+
+<body>
+    <header class="header"> 
+        <div class="logo">
+            <h1>MovieFlix</h1>
+        </div>
+        <nav class="nav">
+          
+            <ul>
+                <li><a href="#" class="red">Home</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">Upcoming</a></li>
+                <li><a href="#">Deals</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Experience Movies Like Never Before</h2>
+            <p>Watch the latest blockbusters in premium quality</p>
+            <a href="#" class="btn">Book Ticket Now </a>
+        </div>
+    </section>
+    <section class="movies">
+        <h2 class="section-title">Now Showing</h2>
+        <div class="movie-grid">
+            
+            <div class="movie-card">
+                <img src="Assets\img-1.avif" alt="Cosmic Adventure">
+                <h3>Cosmic Adventure</h3>
+                <p>Action, Sci-Fi</p>
+                <a href="#" class="btn-2">Watch Now</a>
+            </div>
+            <div class="movie-card">
+                <img src="Assets\img-2.avif" alt="Mystery Island">
+                <h3>Mystery Island</h3>
+                <p>Adventure, Mystery</p>
+                <a href="#" class="btn-2">Watch Now</a>
+            </div>
+            <div class="movie-card">
+                <img src="Assets\img-3.avif" alt="Love Story">
+                <h3>Love Story</h3>
+                <p>Romance, Drama</p>
+                <a href="#" class="btn-2">Watch Now</a>
+            </div>
+            <div class="movie-card">
+                <img src="Assets\img-4.avif" alt="Night Hunters">
+                <h3>Night Hunters</h3>
+                <p>Horror, Thriller</p>
+                <a href="#" class="btn-2">Watch Now</a>
+            </div>
+        </div>
+    </section>
+    <section class="features">
+        <h2 class="section-title">Why Choose MovieFlix</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🎬</div>
+                <h3>Premium Screens</h3>
+                <p>Experience movies in high-definition quality with immersive sound.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🍿</div>
+                <h3>Delicious Snacks</h3>
+                <p>Enjoy a variety of snacks and beverages while watching your favorite movie</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">💺</div>
+                <h3>Comfortable Seating</h3>
+                <p>Relax in our plush, comfortable seats designed for maximum enjoyment.</p>
+            </div>
+        </div>
+    </section>
+    <section class="booking">
+        <h2 class="section-title">Book Your Ticket Now</h2>
+        <form action="#" method="POST">
+            <label for="movie">Select Movie:</label><br>
+            <select id="movie" name="movie"><br>
+                <option value="movie">select movie</option>
+                <option value="cosmic-adventure">Cosmic Adventure</option>
+                <option value="mystery-island">Mystery Island</option>
+                <option value="love-story">Love Story</option>
+                <option value="night-hunters">Night Hunters</option>
+            </select><br>
+            <label for="name">date:</label><br>
+            <input type="date" id="date" name="date" required><br>
+            <label for="movie">Select time:</label><br>
+            <select id="movie" name="movie"><br>
+                <option value="time">select time</option>
+                <option value="time">10:00pm</option>
+                <option value="time">1:00pm</option>
+                <option value="time">7:00pm</option>
+                <option value="time">4:00pm</option>
+                <option value="time">10:00pm</option>
+            </select><br>
+            <label for="seats">Number of Tickets::</label><br>
+            <input type="number" id="seats" name="seats" required><br>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <button type="submit" class="btn-3">Book Now</button>
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footers">
+                <h3>MovieFlix</h3>
+                <p>Your ultimate destination for the best movie experience.</p>
+            </div>
+        
+        
+            <div class="footers">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Movies</a></li>
+                    <li><a href="#">Upcoming</a></li>
+                    <li><a href="#">Deals</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+       
+        
+            <div class="footers">
+                <h3>Contact Us</h3>
+                <p>Email: info@movieflix.com</p>
+                <p>Phone: (123) 456-7890</p>
+                <p>Address: 123 Cinema Street, Movie City</p>
+            </div>
+        </div>
+        <p>&copy; 2023 MovieFlix. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
